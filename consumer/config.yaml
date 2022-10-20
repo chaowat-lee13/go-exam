@@ -1,0 +1,12 @@
+kafka:
+  servers:
+    - localhost:9092
+  group: messageConsumer
+
+db:
+  driver: mysql
+  host: 172.16.0.31
+  port: 3306
+  username: admin
+  password: password
+  database: goexam
